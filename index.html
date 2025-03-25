@@ -1,4 +1,25 @@
-      <script>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Website</title>
+    
+    <!-- Add some basic styles to see the content -->
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 20px;
+            padding: 20px;
+        }
+        .content {
+            max-width: 800px;
+            margin: 0 auto;
+        }
+    </style>
+
+    <!-- Odin Widget Scripts -->
+    <script>
         window.project_id = "b8433a934fc9481bb93d88";
         window.frame_type = "widget";
       </script>
@@ -8,3 +29,25 @@
         frame_type="widget"
         defer
       ></script>
+
+
+      <div id="odin-chatbot"></div>
+      <script>
+        window.project_id = "b8433a934fc9481bb93d88";
+        window.frame_type = "window";
+      </script>
+      <script
+        src="https://app.getodin.ai/loader.min.js"
+        project_id="b8433a934fc9481bb93d88"
+        frame_type="window"
+        defer
+      ></script>
+</head>
+<body>
+    <div class="content">
+        <h1>Welcome to My Website</h1>
+        <p>This is some sample content to ensure the page is loading correctly.</p>
+        <p>The chat widget should appear in the bottom right corner of the page.</p>
+    </div>
+</body>
+</html>
